@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: rgb(9, 81, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 100px;
+}r
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    color: white;
+    border: 5px solid rgb(4, 44, 57);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#events{
+    display: flex;
+    justify-content: center;
+    gap:50px
+}
+.details-btn{
+    border: 3px solid rgb(2, 13, 17);
+    border-radius: 10px;
+    padding: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(2, 33, 33);
+}
+.event-card{
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 0 10px 8px rgb(4, 41, 43);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+}
+footer{
+    background-color: rgb(9, 81, 78);
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 500;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+
+
+}
+#event-det{
+    display: flex;
+    justify-content: center;
+    gap:50px
+    
+}
+
+.ev{
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 0 10px 8px rgb(4, 41, 43);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.event-tittle{
+    color: #053d3f;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    display: inline-block; /* Set elements to display in a line */
+    vertical-align: middle; /* Align elements vertically in the middle */
+    margin-bottom: 10px; /* Add margin below the elements */
+    width:100%
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 3px solid #033b3e;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+form input[type="Submit"] {
+    width: 20%;
+    margin-top: 10px;
+    background-color: #033b3e; /* Change the background color to your desired color */
+    color: #FFFFFF; /* Change the text color to ensure it's readable on the background */
+    border: 2px solid #011c1e; /* Change the border color to match the background color */
+    padding: 10px; /* Add some padding to the button for better appearance */
+    border-radius: 4px; /* Add rounded corners to the button */
+    cursor: pointer; /* Add a pointer cursor on hover for better user experience */
+    font-size: 16px; /* Adjust the font size if needed */
+    font-weight: bold; /* 
+
+
+
+}
